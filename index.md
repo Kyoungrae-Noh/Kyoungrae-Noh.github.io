@@ -1,17 +1,14 @@
 ---
 layout: default
-title: "Welcome to My AI Study"
+title: "Kyoungrae Noh Blog"
 ---
 
-# 📌 Welcome to My AI Study Page
-🚀 머신러닝과 딥러닝 개념을 정리하고, 연구 내용을 공유하는 공간입니다.
+<h1>📌 Latest Posts</h1>
 
-## 📚 ML Interview Questions
-1. [Bias vs Variance](/questions/bias_vs_variance)
-2. [Overfitting vs Underfitting](/questions/underfitting_overfitting)
-3. [Gradient Descent](/questions/Gradient_Descent)
-
-## 📢 About Me
-- **Kyoungrae Noh**  
-- AI 연구자, ML/DL Enthusiast  
-- 📧 Contact: example@email.com
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+    </li>
+  {% endfor %}
+</ul>
