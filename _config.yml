@@ -23,6 +23,25 @@ collections:
   posts:
     output: true
     permalink: /:categories/:title/
+  ml:
+    output: true
+    permalink: /ml/:path/
+  dl:
+    output: true
+    permalink: /dl/:path/
+  vision:
+    output: true
+    permalink: /vision/:path/
+  math:
+    output: true
+    permalink: /math/:path/
+  python:
+    output: true
+    permalink: /python/:path/
+  etc:
+    output: true
+    permalink: /etc/:path/
+
 
 # 플러그인 (필요시)
 plugins:
