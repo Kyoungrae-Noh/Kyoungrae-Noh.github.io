@@ -1,7 +1,8 @@
 ---
-layout: home
-title: "Kyoungrae Noh's AI Blog"
+layout: default
+title: "Welcome to My Study Page"
 ---
+
 
 # 🚀 머신러닝 & 딥러닝 블로그
 AI 연구 및 머신러닝 개념을 정리하는 블로그입니다.
