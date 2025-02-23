@@ -9,14 +9,15 @@ github_username: "Kyoungrae-Noh"
 theme: minima  # or 사용할 테마 설정
 
 # 네비게이션 바 설정
+
 navbar-links:
-  ALL: "/"
-  ML: "/ml"
-  DL: "/dl"
-  Vision: "/vision"
-  Math: "/math"
-  Python: "/python"
-  ETC: "/etc"
+  Home: "/"
+  ML: "/ml/"
+  DL: "/dl/"
+  Math: "/math/"
+  Python: "/python/"
+  DA: "/da/"
+  Etc: "/etc/"
 
 # 포스트 설정
 collections:
