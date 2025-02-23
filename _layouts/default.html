@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+    {% include navbar.html %}  <!-- 네비게이션 포함 -->
+    <div class="container">
+        <header>
+            <h1>{{ page.title }}</h1>
+        </header>
+        <main>
+            {{ content }}
+        </main>
+    </div>
+</body>
+</html>
