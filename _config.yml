@@ -1,6 +1,6 @@
 title: "Kyoungrae's Study Page"
 description: "A collection of AI, ML, and DL interview questions and concepts"
-theme: minima  # 기본 제공 테마 (필요에 따라 변경 가능)
+remote_theme: jekyll/minima
 baseurl: ""  
 url: "https://Kyoungrae-Noh.github.io"
 
