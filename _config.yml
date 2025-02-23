@@ -1,0 +1,25 @@
+title: "Kyoungrae Noh's AI Blog"
+author: "Kyoungrae Noh"
+description: "머신러닝, 딥러닝 연구 내용을 정리하는 블로그"
+theme: minima  # 기본 Jekyll 테마 사용
+show_excerpts: true
+
+# 네비게이션 바 설정
+navbar-links:
+  Home: "index.md"
+  ML:
+    - "Gradient Descent": "questions/Gradient_Descent.md"
+    - "Bias vs Variance": "questions/Bias_vs_Variance.md"
+    - "Overfitting vs Underfitting": "questions/Overfitting_vs_Underfitting.md"
+  DL:
+    - "CNN": "questions/CNN.md"
+    - "RNN": "questions/RNN.md"
+  Math:
+    - "Linear Algebra": "questions/Linear_Algebra.md"
+    - "Probability": "questions/Probability.md"
+  About: "about.md"
+
+# 마크다운 설정
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
