@@ -1,28 +1,41 @@
-title: "Kyoungrae's AI Study"
-description: "Machine Learning, Deep Learning, AI Study Blog"
-remote_theme: "minimal-mistakes/jekyll-theme"  # Gaussian37처럼 깔끔한 테마 적용
-baseurl: ""  
-url: "https://Kyoungrae-Noh.github.io"
+title: "Kyoungrae Noh Blog"
+author: "Kyoungrae Noh"
+email: "your.email@example.com"
+description: "Computer Vision, AI, ML, Deep Learning Blog"
+baseurl: ""
+url: "https://kyoungrae-noh.github.io"
+github_username: "Kyoungrae-Noh"
 
-# 네비게이션 설정
+theme: minima  # or 사용할 테마 설정
+
+# 네비게이션 바 설정
 navbar-links:
-  Machine Learning:
-    - "Bias vs Variance": "/questions/bias_vs_variance"
-    - "Overfitting vs Underfitting": "/questions/underfitting_overfitting"
-    - "Gradient Descent": "/questions/Gradient_Descent"
+  ALL: "/"
+  ML: "/ml"
+  DL: "/dl"
+  Vision: "/vision"
+  Math: "/math"
+  Python: "/python"
+  ETC: "/etc"
 
-# 마크다운 및 플러그인
-markdown: kramdown
-permalink: pretty
+# 포스트 설정
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title/
+
+# 플러그인 (필요시)
 plugins:
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
 
-# SEO 및 기본 설정
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# 기본 페이지네이션
+paginate: 5
+paginate_path: "/page:num/"
+
+# 마크다운 변환 설정
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
