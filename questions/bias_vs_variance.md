@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Bias vs Variance"
+permalink: /questions/bias_vs_variance/
 ---
 
 # 📌 Bias vs Variance
