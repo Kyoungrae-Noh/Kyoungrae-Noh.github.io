@@ -1,62 +1,30 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    text-align: center;
     margin: 0;
     padding: 0;
+    background-color: #f8f9fa;
 }
+
 .container {
-    width: 80%;
+    max-width: 800px;
     margin: auto;
     padding: 20px;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
-/* 헤더 스타일 */
-header {
-    background-color: #ff6600;
-    padding: 20px;
+nav ul {
+    background: #333;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
     color: white;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-/* 질문 목록 스타일 */
-.questions ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.questions li {
-    margin: 15px 0;
-}
-
-/* 버튼 스타일 */
-.button {
     text-decoration: none;
-    background-color: #007bff;
-    color: white;
-    padding: 12px 24px;
-    border-radius: 8px;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-    border: none;
-}
-
-.button:hover {
-    background-color: #0056b3;
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
-    transform: translateY(-2px);
-}
-
-/* 푸터 스타일 */
-footer {
-    margin-top: 20px;
-    font-size: 14px;
-    color: gray;
 }
