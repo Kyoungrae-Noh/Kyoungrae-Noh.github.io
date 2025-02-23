@@ -1,3 +1,4 @@
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/630850ca-1e8f-428d-9f76-a9987f7dcd8c" />
 ---
 layout: default
 title: "Kyoungrae Noh Blog"
@@ -6,7 +7,7 @@ title: "Kyoungrae Noh Blog"
 <!-- 카테고리 메뉴 -->
 <nav>
   <ul>
-    <li><a href="{{ '/' | relative_url }}">ALL</a></li>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
     {% for category in site.categories %}
       <li><a href="{{ category[0] | relative_url }}">{{ category[0] | capitalize }}</a></li>
     {% endfor %}
