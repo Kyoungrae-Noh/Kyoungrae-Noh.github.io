@@ -1,4 +1,3 @@
-<img width="958" alt="image" src="https://github.com/user-attachments/assets/630850ca-1e8f-428d-9f76-a9987f7dcd8c" />
 ---
 layout: default
 title: "Kyoungrae Noh Blog"
