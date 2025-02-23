@@ -7,22 +7,12 @@
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
-    <header>
-        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-        <nav>
-            <ul>
-                <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
-                <li><a href="{{ '/about.html' | relative_url }}">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    
+    {% include navbar.html %}  <!-- ✅ 네비게이션 바 포함 -->
     <main>
         {{ content }}
     </main>
-
     <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} Kyoungrae Noh. All rights reserved.</p>
+        <p>© 2025 Kyoungrae Noh</p>
     </footer>
 </body>
 </html>
